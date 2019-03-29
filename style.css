@@ -34,7 +34,7 @@ body {
   }
   
   article {
-    flex: 4 0 10%;
+    flex: 4 0 0%;
   }
 
   .box{border:10px solid black;}
@@ -56,6 +56,10 @@ body {
     transform: scaleX(-1);
     filter: FlipH;
     -ms-filter: "FlipH";
+}
+.responsive {
+  width: 100%;
+  height: auto;
 }
   
   header {
@@ -79,5 +83,9 @@ body {
     header, footer {
       flex-basis: 50px;
      
+    }
+    .img {
+      width: 100%;
+      height: auto;
     }
   }
