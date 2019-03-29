@@ -4,7 +4,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     /* background: #ffffdb; */
-    font-family: Helvetica;
+    font-family: Helvetica; 
     text-align: center
   }
   
@@ -22,22 +22,28 @@ body {
 
   header h1 span {text-decoration: underline}
   
-  main > *, header, footer {
+  main > *, header {
     margin: 1px;
     padding: 5px;
+    
     
   }
   
   main {
     display: flex;
-    flex-basis: 800px;
+    flex-basis: 100px;
   }
   
   article {
-    flex: 4 0 0%;
+    flex: 4 0 60%;
+    padding: 20px;
+    color: blue;
+    font-size: 15px
   }
 
-  .box{border:10px solid black;}
+  .box{border:10px solid black;
+
+  }
   
   nav {
     flex: 1 1 20%;
